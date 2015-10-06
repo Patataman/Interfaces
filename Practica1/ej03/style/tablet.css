@@ -1,0 +1,38 @@
+[class*="col-t"] {
+	width: 100%;
+}
+
+#logo {
+	margin: 0px 0px 0px 10%;
+}
+
+h1 {
+	margin: 0px 10% 0px 0px;
+}
+
+h2 {
+	text-align: justify;
+}
+
+#menu {
+	visibility: visible;
+	float:left;
+}
+
+nav {
+	background-color: #fff3e0;
+	margin: 0;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-color: #212121;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 6%;
+}
+
+.colums {
+	width: 50%;
+	height: 50%;
+}

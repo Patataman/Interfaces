@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "FiraSans";
+  src: url('https://googledrive.com/host/0B9eg--J_DWtbTTJuMGNralRmN1E/FiraSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'typicons';
+  src: url("typicons.font/src/font/typicons.eot");
+  src: url("typicons.font/src/font/typicons.woff") format('woff'),
+       url("typicons.font/src/font/typicons.ttf") format('truetype'),
+       url("typicons.font/src/font/typicons.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'FiraSans';
+	text-align: center;
+	margin: auto;
+	background-color: #fff8e1;
+}
+
+header {
+	padding: 30px 0px 30px 0px;
+    display: inline-block;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    vertical-align: middle;
+}
+
+#logo, h1 {
+	float:left;
+}
+
+h1 {
+	padding: 10px 30px 0px;
+}
+
+#logo {
+	margin: 0 0 0 20%;
+}
+
+#page-wrap {
+	overflow: hidden;
+}
+#cuerpo {
+	float: right;
+	width: 65%;
+	padding-bottom: 32767px;
+	margin-bottom: -32740px;
+	margin-right: 5%;
+	background-color: #ffe0b2;
+}
+
+#cuerpo ul li {
+	display: inline-block;
+	width: 30%;
+	padding: 0px 10px 0px;
+}
+
+#cuerpo ul li p, h2{
+	text-align: left;
+}
+
+.colums {
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	margin-bottom: 10px;
+}
+
+ul li {
+	display: block;
+	margin: 10px auto 10px;
+}
+
+nav ul li:hover {
+	color: #81d4fa;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	padding-bottom: 32767px;
+ 	margin-bottom: -32767px;
+ 	padding-top:30px;
+}
+
+.img {
+	margin: 5% 30px 1%;
+	overflow: hidden;
+	
+}
+.img #doge {
+	width: 885px;
+	height: 173px;
+}
+
+#subscripcion {
+	padding: 10px 10px 30px;
+	margin-bottom: 30px;
+}
+
+.izq {
+	float: left;
+	margin: 0px 20px 0px;
+}
+
+.drch {
+	float: right;
+	margin: 0px 20px 0px;
+}
+
+footer {
+	display:inline-table;
+	clear: both;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	background-color: #212121;
+	color: white;
+}
+
+#social {
+	float: right;
+	margin: 2% 10% 0px;
+}
+
+#social span {
+	font-size: 30px;
+}
+
+#social span:hover {
+	color: #81d4fa;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#copyright{
+	float: left;
+	margin: 3% 10% 0px;
+}
+
+
