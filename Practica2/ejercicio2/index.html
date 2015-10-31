@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<link rel='shortcut icon' href='images/icon.png'>
+		<link rel='stylesheet' type='text/css' href='style/style.css'>
+		<link rel='stylesheet' href='style/typicons.font/src/font/typicons.min.css'>
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<title> Tienda falsa 123 </title>
+	</head>
+
+	<body>
+		<header>
+		<h1> Tienda Falsa 123 </h1>
+			<nav>
+				<ul>
+					<li>
+						<a class='link active' href='#'>Productos</a>
+					</li>
+					<li>
+						<a class='link' href='#'>Oportunidades</a>
+					</li>
+					<li>
+						<a class='link' href='#'>Quiénes Somos</a>
+					</li>
+					<li>
+						<a class='link' href='#'>Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id='remainderBody'>
+			<p id='descr'>Para finalizar la compra, necesitamos que rellene el siguiente formulario con sus datos personales.</p>
+
+			<form action='MAILTO:email@email.dom' method='POST' enctype='multipart/form-data'>
+
+				<div id='dir_envio' class='block'>
+					<h4>Datos para el envío</h3>
+					<div class='menu_line'></div>
+					
+					<div class='linea'> 
+	        			<label for='nombre'>Nombre(*):</label> 
+	        			<input required class='text_input' type='text' name='nombre' id='nombre'>         			
+	    			
+				        <label for='apellidos'>Apellidos(*):</label> 
+				        <input required class='text_input' type='text' name='apellidos' id='apellidos'>			        
+				    </div> 
+				   
+				    <div class='linea'> 
+				        <label for='email'>E-Mail(*):</label> 
+				        <input required class='text_input' type='email' name='email' id='email'>			        
+				    </div> 
+				   	
+				   	<div class='linea'>
+				   		<label for='telefono'>Móvil:</label> 
+	   			        <input class='text_input' type='tel' name='telefono' id='telefono'>
+
+				    	<label for='direccion'>Dirección(*):</label> 
+				        <input required class='text_input' type='text' name='direccion' id='direccion'>
+				    </div>
+
+				    <div class='linea'>
+						<label for='cod_post'>Código Postal(*):</label> 
+	   			        <input required class='text_input' type='text' name='cod_post' id='cod_post'>
+	   			        
+	   			        <label for='poblacion'>Población(*):</label> 
+				        <input required class='text_input' type='text' name='poblacion' id='poblacion'>
+	   			    </div>
+				        
+				    <div class='linea'>   			       
+				    	<label for='provincia'>Provincia(*):</label> 
+				        <input required class='text_input' type='text' name='provincia' id='provincia'>			        
+
+	   			        <label for='pais'>País(*):</label> 
+				        <input required class='text_input' type='text' name='pais' id='pais'>
+				    </div>
+
+				    <div class='linea'>   			       
+				    	<label for='pref'>Preferencias:</label> 
+				        <input class='text_input' type='text' name='pref' id='pref'>
+				    </div>	
+
+
+
+
+			     </div>
+			   
+			    <div id='info_user' class='block'>
+					<h4>Información del Usuario</h3>
+					<div class='menu_line'></div>
+					
+					<div class='linea'> 
+	        			<label id='user_lab' for='user'>Usuario:</label> 
+	        			<input class='text_input' type='text' name='user' id='user'>         			
+	    			</div>
+
+					<div class='linea'>
+				        <label id='contr_lab' for='contrasena'>Contraseña:</label> 
+				        <input class='text_input' type='password' name='contrasena' id='contrasena'>
+
+				        <label id='conf_contr_lab' for='conf_contrasena'>Confirmar contraseña:</label> 
+				        <input class='text_input' type='password' name='conf_contrasena' id='conf_contrasena'>
+				    </div>
+
+				    <div class='linea'>
+				        <label for='input_img'>Foto de perfil:</label> 
+				        <input class='in_img' type='file' name='input_img' id='input_img'>
+				        <span class='aviso'>Podrá cambiarla más adelante</span>
+				    </div>
+				   
+			     </div>
+
+			     <div id='info_pago' class='block'>
+					<h4>Información del Pago</h4>
+					<div class='menu_line'></div>
+					
+					<div class='linea'> 
+	        			<label for='importe'>Importe:</label> 
+	        			<span id='importe'> 158,95€</span>
+	        			<span id='pago'>Pago(*):</span>
+					        <a target='_blank' href='https://www.paypal.com'>
+					        	<input required type='radio' name='in_pago' value='paypal' id='in_paypal'>
+					        	<label id='in_paypal_lab' for='in_paypal'>PayPal</label> 
+					        </a>
+
+					        <input required type='radio' name='in_pago' value='tarjeta' id='in_tarjeta'>
+					        <label id='in_tarjeta_lab' for='in_tarjeta'>Tarjeta de crédito</label> 
+
+	    			</div>
+
+				    <div id='menu_tarjeta'>
+				    	<h4>Datos de la tarjeta</h4>
+				    	<div class='menu_line'></div>
+
+				    	<div class='linea'>
+		        			<label for='num_tarjeta'>Número de tarjeta(*):</label> 
+		        			<input class='text_input' type='text' name='num_tarjeta' id='num_tarjeta'>
+
+		        			<label for='cod_seguridad'>Código de seguridad(*):</label> 
+		        			<input class='text_input' type='password' name='cod_seguridad' id='cod_seguridad'>
+		        		</div>
+
+		        		<div class='linea'>
+		        			<label for='tipo_tarjeta'>Tipo de tarjeta(*):</label> 
+		        			<select name='tipo_tarjeta' id='tipo_tarjeta'>
+		        				<option class='hidden' value='' selected='selected' disabled></option>
+		        				<option value='visa'>VISA</option>
+		        				<option value='mastercard'>Mastercad</option>
+		        				<option value='am_express'>American Express</option>
+		        				<option value='otro'>Otro</option>
+		        			</select>
+		        			<div id='otra_tarj' class='hidden'>
+								<label for='in_other'>Otra tarjeta(*):</label> 
+			        			<input class='text_input' type='text' name='in_other' id='in_other'>
+			        		</div>
+		        		</div>
+
+		        		<div class='linea'>		        			
+		        			<label for='titular_tarj'>Titular de la tarjeta(*):</label> 
+		        			<input class='text_input' type='text' name='titular_tarj' id='titular_tarj'>
+		        			<label for='f_caducidad'>Fecha de caducidad(*):</label> 
+		        			<input class='text_input' type='month' name='f_caducidad' id='f_caducidad'>
+		        		</div>
+				    </div>
+				   
+			     </div>
+					
+			     <div id='cond_term' class='block'>
+			     	<div class='linea'>
+						<input required type='checkbox' name='acuerdo' value='acuerdo' id='acuerdo'>
+						<label for='acuerdo'>He leído y acepto las Condiciones de Uso</label> 	
+					</div>
+			     </div>
+
+			    <div class='submitWrapper'> 
+			        <input required class='submit' type='submit' value='Enviar'> 
+			        <p>(*) Los campos son obligatorios</p>
+			    </div>
+
+			</form>
+		</section>
+
+		<footer>
+			
+			<div id='line'></div>
+			<div id='content'>
+				<p id='copyright'> © Tienda Falsa 123 </p> 
+				<a href='#'><img id='icon' src='images/icon.png' alt='icon'></a>
+				<a href='https://github.com/Patataman' target='_blank'><span class='daniel social typcn typcn-social-github'></span></a>
+				<a href='https://twitter.com/ZDShas' target='_blank'><span class='daniel social typcn typcn-social-twitter'></span></a> 
+				<a href='https://github.com/mhSangar' target='_blank'><span class='mario social typcn typcn-social-github'></span></a>
+				<a href='https://twitter.com/mhSangar' target='_blank'><span class='mario social typcn typcn-social-twitter'></span></a>
+				<!-- Añadir aquí tus iconitos para las redes sociales. Tienen que llevar display:inline; float:right;-->
+			</div>
+		</footer>
+
+		<script type="text/javascript" src='script/jquery-1.11.3.js'></script>
+		<script type="text/javascript" src='script//jquery-ui-1.11.4/jquery-ui.js'></script>
+		<script type="text/javascript" src='script/main.js'></script>
+	</body>
+
+</html>
